@@ -4,9 +4,6 @@ import math
 from typing import Dict, List
 from autogen import ConversableAgent, register_function
 
-
-os.environ["OPENAI_API_KEY"] = "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"
-
 def fetch_restaurant_data(restaurant_name: str) -> Dict[str, List[str]]:
     # TODO
     # This function takes in a restaurant name and returns the reviews for that restaurant. 
